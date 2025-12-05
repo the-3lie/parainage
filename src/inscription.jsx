@@ -63,8 +63,8 @@ export default function Inscription() {
       <div className="flex-grow flex items-center justify-center px-4 py-10">
         <div className="w-full max-w-xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg p-10 rounded-3xl">
 
-          <h2 className="text-4xl text-center font-bold text-white">Formulaire d’inscription</h2>
-          <p className="mt-2 text-center text-sky-300 text-sm">Veuillez remplir vos informations</p>
+          <h2 className="text-4xl text-center font-bold text-white">Formulaire de Renseignement</h2>
+          <p className="mt-2 text-center text-sky-300 text-sm">Veuillez bien remplir vos informations <br /> nb: Demande via le ministère de l'ensegnement superieur et de la recherche scientifique</p>
 
           <form onSubmit={handleSubmit} className="mt-10 space-y-8">
             {[
@@ -135,7 +135,7 @@ export default function Inscription() {
 
       {/* ─────── FOOTER ─────── */}
       <footer className="w-full bg-slate-900/80 py-4 border-t border-white/10 text-center text-slate-400">
-        © {new Date().getFullYear()} IUA — Parrainage. Tous droits réservés.
+        © {new Date().getFullYear()} IUA — CI. Tous droits réservés  faire par Henoc Elysee Guei.
       </footer>
     </div>
   );
